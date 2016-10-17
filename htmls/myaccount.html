@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>绿健-个人主页</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">绿健运动</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">个人主页</a></li>
+                <li><a href="#">绿健活动</a></li>
+                <li><a href="#">绿健圈子</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-2">
+            <ul class="nav">
+                <li class="active"><a href="#">我的运动</a></li>
+                <li><a href="#">绿健身体</a></li>
+                <li><a href="#">绿健好友</a></li>
+                <li><a href="#">绿健账户</a></li>
+            </ul>
+        </div>
+        <div class="col-md-10 col-sm-10 col-xs-10">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <p>个人信息</p>
+                    <br/>
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="name">昵称</label>
+                            <input type="text" class="form-control">
+                            <label for="name">性别</label>
+                            <select class="form-control">
+                                <option>男</option>
+                                <option>女</option>
+                            </select>
+                            <label for="name">年龄</label>
+                            <input type="text" class="form-control">
+                            <label for="name">兴趣</label>
+                            <input type="text" class="form-control">
+                            <label for="name">绿健宣言</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">更新信息</button>
+                    </form>
+                    <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <p>账户信息</p>
+                    <br/>
+                    <p>账户等级：3</p>
+                    <p>账户余额：1000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

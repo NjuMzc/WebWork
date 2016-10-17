@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>绿健-个人主页</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">绿健运动</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">个人主页</a></li>
+                <li><a href="#">绿健活动</a></li>
+                <li><a href="#">绿健圈子</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-2">
+            <ul class="nav">
+                <li><a href="#">我的运动</a></li>
+                <li class="active"><a href="#">绿健身体</a></li>
+                <li><a href="#">绿健好友</a></li>
+                <li><a href="#">绿健账户</a></li>
+            </ul>
+        </div>
+        <div class="col-md-10 col-sm-10 col-xs-10">
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-5">
+                    <p>数据录入</p>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-5">
+                    <p>BMI测算</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <form class="bs-example bs-example-form" role="form">
+                        <div class="input-group">
+                            <span class="input-group-addon">身高(cm)</span>
+                            <input type="text" class="form-control" placeholder="请输入身高">
+                        </div>
+                        <br/>
+                        <div class="input-group">
+                            <span class="input-group-addon">体重(kg)</span>
+                            <input type="text" class="form-control" placeholder="请输入体重">
+                        </div>
+                        <br/>
+                        <button type="submit" class="btn btn-default">提交</button>
+                    </form>
+                    <br/>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-5">
+                    <p>BMI计算值：27</p><br/>
+                    <p>BMI水平：偏瘦</p><br/>
+                </div>
+            </div>
+            <div class="row">
+                <p>历史记录</p>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-sm-10 col-xs-10">
+                    <p>
+                        此处应有身高体重折线统计图
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
