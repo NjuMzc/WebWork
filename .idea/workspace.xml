@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9eacb7-5d96-42fc-9b95-b3294c4e7f5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/htmls/dongtai.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/arena.html" afterPath="$PROJECT_DIR$/htmls/arena.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/myAbility.html" afterPath="$PROJECT_DIR$/htmls/myAbility.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/myaccount.html" afterPath="$PROJECT_DIR$/htmls/myaccount.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/mybody.html" afterPath="$PROJECT_DIR$/htmls/mybody.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/myfriends.html" afterPath="$PROJECT_DIR$/htmls/myfriends.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmls/mysport.html" afterPath="$PROJECT_DIR$/htmls/mysport.html" />
     </list>
     <ignored path="WebWork.iws" />
@@ -35,18 +29,21 @@
       <file leaf-file-name="mysport.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htmls/mysport.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1775">
-              <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="2100">
+              <caret line="84" column="85" selection-start-line="84" selection-start-column="85" selection-end-line="84" selection-end-column="85" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybody.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mybody.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/htmls/mybody.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1177">
-              <caret line="82" column="69" selection-start-line="82" selection-start-column="69" selection-end-line="82" selection-end-column="69" />
+            <state relative-caret-position="-1100">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -62,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dongtai.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dongtai.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htmls/dongtai.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="200">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding>
                 <element signature="e#1601#1607#0" expanded="true" />
                 <element signature="e#2046#2052#0" expanded="true" />
@@ -98,8 +95,8 @@
         <option value="$PROJECT_DIR$/htmls/dongtai.html" />
         <option value="$PROJECT_DIR$/htmls/myfriends.html" />
         <option value="$PROJECT_DIR$/htmls/myaccount.html" />
-        <option value="$PROJECT_DIR$/htmls/mysport.html" />
         <option value="$PROJECT_DIR$/htmls/mybody.html" />
+        <option value="$PROJECT_DIR$/htmls/mysport.html" />
       </list>
     </option>
   </component>
@@ -110,8 +107,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="333" />
-    <option name="y" value="63" />
+    <option name="x" value="388" />
+    <option name="y" value="73" />
     <option name="width" value="1400" />
     <option name="height" value="981" />
   </component>
@@ -150,7 +147,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.myfriends.html">
+  <component name="RunManager" selected="JavaScript Debug.mybody.html">
     <configuration default="false" name="myfriends.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebWork/htmls/myfriends.html">
       <method />
     </configuration>
@@ -228,9 +225,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.myfriends.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.mybody.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.mysport.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.mybody.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.mysport.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.myfriends.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.myaccount.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.dongtai.html" />
       </list>
@@ -251,16 +248,16 @@
       <updated>1476700750972</updated>
       <workItem from="1476700753080" duration="7898000" />
       <workItem from="1476708947838" duration="6492000" />
-      <workItem from="1476748980075" duration="9622000" />
+      <workItem from="1476748980075" duration="11615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24012000" />
+    <option name="totallyTimeSpent" value="26005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="333" y="63" width="1400" height="981" extended-state="0" />
-    <editor active="true" />
+    <frame x="388" y="73" width="1400" height="981" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -292,7 +289,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -391,14 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htmls/mysport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/htmls/arena.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
@@ -422,14 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htmls/mybody.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1177">
-          <caret line="82" column="69" selection-start-line="82" selection-start-column="69" selection-end-line="82" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/htmls/myfriends.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-898">
@@ -440,14 +423,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/htmls/dongtai.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="200">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
             <element signature="e#1601#1607#0" expanded="true" />
             <element signature="e#2046#2052#0" expanded="true" />
             <element signature="e#2490#2496#0" expanded="true" />
             <element signature="e#2935#2941#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmls/mysport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="84" column="85" selection-start-line="84" selection-start-column="85" selection-end-line="84" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmls/mybody.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

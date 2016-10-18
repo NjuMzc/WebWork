@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.bootcss.com/echarts/3.2.3/echarts.common.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-default" role="navigation">
@@ -60,14 +61,64 @@
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-md-5 col-sm-5 col-xs-5">
-                                <p>
-                                    卡路里消耗统计
-                                </p>
+                                <div id="picture1" style="width: 600px;height:400px;"></div>
+                                <script type="text/javascript">
+                                    // 基于准备好的dom，初始化echarts实例
+                                    var myChart = echarts.init(document.getElementById('picture1'));
+
+                                    // 指定图表的配置项和数据
+                                    var option = {
+                                        title: {
+                                            text: '卡路里燃烧统计'
+                                        },
+                                        tooltip: {},
+                                        legend: {
+                                            data:['卡路里']
+                                        },
+                                        xAxis: {
+                                            data: ["2016-07-08","2016-07-09","2016-07-10","2016-07-11","2016-07-12","2016-07-13"]
+                                        },
+                                        yAxis: {},
+                                        series: [{
+                                            name: '卡路里',
+                                            type: 'bar',
+                                            data: [5000, 7000, 4888, 5299, 6012, 4593]
+                                        }]
+                                    };
+
+                                    // 使用刚指定的配置项和数据显示图表。
+                                    myChart.setOption(option);
+                                </script>
                             </div>
                             <div class="col-md-5 col-sm-5 col-xs-5">
-                                <p>
-                                    步行数统计
-                                </p>
+                                <div id="main" style="width: 600px;height:400px;"></div>
+                                <script type="text/javascript">
+                                    // 基于准备好的dom，初始化echarts实例
+                                    var myChart = echarts.init(document.getElementById('main'));
+
+                                    // 指定图表的配置项和数据
+                                    var option = {
+                                        title: {
+                                            text: '步行量统计'
+                                        },
+                                        tooltip: {},
+                                        legend: {
+                                            data:['步行量']
+                                        },
+                                        xAxis: {
+                                            data: ["2016-07-08","2016-07-09","2016-07-10","2016-07-11","2016-07-12","2016-07-13"]
+                                        },
+                                        yAxis: {},
+                                        series: [{
+                                            name: '步行量',
+                                            type: 'bar',
+                                            data: [5, 20, 36, 10, 10, 20]
+                                        }]
+                                    };
+
+                                    // 使用刚指定的配置项和数据显示图表。
+                                    myChart.setOption(option);
+                                </script>
                             </div>
                         </div>
                     </div>
