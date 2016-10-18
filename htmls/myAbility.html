@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>绿健-个人主页</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">绿健运动</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">个人主页</a></li>
+                <li class="active"><a href="#">绿健活动</a></li>
+                <li><a href="#">绿健圈子</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-2">
+            <ul class="nav">
+                <li class="active"><a href="#">我的竞赛</a></li>
+                <li><a href="#">绿健竞技场</a></li>
+            </ul>
+        </div>
+        <div class="col-md-10 col-sm-10 col-xs-10">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="row">
+                    <h3>竞赛列表</h3>
+                    <br/>
+                </div>
+                <div class="row">
+                    <h4>我的发布</h4>
+                    <br/>
+                </div>
+                <div class="row">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">火星救援</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <th>发起人</th>
+                                            <th>竞赛时间</th>
+                                            <th>参赛人数</th>
+                                            <th>竞赛奖金</th>
+                                        </tr>
+                                        <tr>
+                                            <th>LaiWei</th>
+                                            <th>2016-07-08</th>
+                                            <th>4/12</th>
+                                            <th>1000</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>&nbsp;&nbsp;环绕火星的一次马拉松竞赛
+                                </p>
+                                &nbsp;
+                                <button type="button" class="btn btn-danger btn-sm">删除竞赛</button>
+                                &nbsp;
+                                <button type="button" class="btn btn-warning btn-sm">修改竞赛</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4>我的加入</h4>
+                    <br/>
+                </div>
+                <div class="row">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">轰炸海王星</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <th>发起人</th>
+                                            <th>竞赛时间</th>
+                                            <th>参赛人数</th>
+                                            <th>竞赛奖金</th>
+                                        </tr>
+                                        <tr>
+                                            <th></th>
+                                            <th>2016-09-08</th>
+                                            <th>3/12</th>
+                                            <th>2000</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>&nbsp;&nbsp;我看海王星不爽很久了!
+                                </p>
+                                &nbsp;
+                                <button type="button" class="btn btn-danger btn-sm">退出竞赛</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">深海挖油</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <th>发起人</th>
+                                            <th>竞赛时间</th>
+                                            <th>参赛人数</th>
+                                            <th>竞赛奖金</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Veda</th>
+                                            <th>2016-09-08</th>
+                                            <th>3/12</th>
+                                            <th>2000</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>&nbsp;&nbsp;挖油致富!
+                                </p>
+                                &nbsp;
+                                <button type="button" class="btn btn-danger btn-sm">退出竞赛</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1"></div>
+            <div class="col-md-3 col-sm-3 col-xs-3">
+                <div class="row">
+                    <h3>发起竞赛</h3>
+                    <br/>
+                </div>
+                <div class="row">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="NameInput">竞赛名称</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="TimeInput">竞赛时间</label>
+                            <input type="date" class="form-control" id="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="NumInput">参赛人数</label>
+                            <input type="number" class="form-control" id="num" placeholder="请输入竞赛最大人数">
+                        </div>
+                        <div class="form-group">
+                            <label for="MoneyInput">竞赛奖金</label>
+                            <input type="number" class="form-control" id="money" placeholder="请输入竞赛奖金金额">
+                        </div>
+                        <div class="form-group">
+                            <label for="DescriptionInput">竞赛描述</label>
+                            <textarea class="form-control" rows="3" placeholder="竞赛简单描述"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-lg">来战!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
