@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.bootcss.com/echarts/3.2.3/echarts.common.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-default" role="navigation">
@@ -81,9 +82,77 @@
                         </div>
                         <div class="panel-body">
                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                <p>
-                                    此处应有身高体重折线统计图
-                                </p>
+                                <div id="main" style="width: 600px;height:400px;"></div>
+                                <script type="text/javascript">
+                                    var myChart = echarts.init(document.getElementById('main'));
+
+                                    var option = {
+                                        tooltip: {
+                                            trigger: 'axis'
+                                        },
+                                        toolbox: {
+                                            feature: {
+                                                dataView: {show: true, readOnly: false},
+                                                magicType: {show: true, type: ['line', 'bar']},
+                                                restore: {show: true},
+                                                saveAsImage: {show: true}
+                                            }
+                                        },
+                                        legend: {
+                                            data:['身高','体重','BMI']
+                                        },
+                                        xAxis: [
+                                            {
+                                                type: 'category',
+                                                data: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月']
+                                            }
+                                        ],
+                                        yAxis: [
+                                            {
+                                                type: 'value',
+                                                name: '身高',
+                                                min: 0,
+                                                max: 300,
+                                                interval: 10,
+                                                axisLabel: {
+                                                    formatter: '{value} cm'
+                                                }
+                                            },
+                                            {
+                                                type: 'value',
+                                                name: '体重',
+                                                min: 0,
+                                                max: 200,
+                                                interval: 10,
+                                                axisLabel: {
+                                                    formatter: '{value} kg'
+                                                }
+                                            }
+                                        ],
+                                        series: [
+                                            {
+                                                name:'身高',
+                                                type:'bar',
+                                                data:[178, 178, 178, 178, 178, 178, 178, 178, 178, 178, 178, 178]
+                                            },
+                                            {
+                                                name:'体重',
+                                                type:'bar',
+                                                data:[62.5, 62.5, 62.5, 62.5, 62.5, 63, 66, 70, 80, 75, 66, 63.8]
+                                            },
+                                            {
+                                                name:'BMI',
+                                                type:'line',
+                                                yAxisIndex: 1,
+                                                data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
+                                            }
+                                        ]
+                                    };
+
+
+                                    // 使用刚指定的配置项和数据显示图表。
+                                    myChart.setOption(option);
+                                </script>
                             </div>
                         </div>
                     </div>
